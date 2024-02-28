@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+input {
+    margin-bottom: 10px;
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+  }
+
+textarea {
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+}
+
+section div form p {
+    margin: 20px 0px 0px 0px;
+}
+
+section div {
+    margin-left: 40px;
+}
+
+#info div form .card {
+    margin-left: 70px;
+}
+
+form input{
+    margin: 0;
+    height: 25px;
+}
+
+button {
+    background-color: #98b100;
+    border: solid 3px #e17967;
+    border-radius: 10px;
+    height: 35px;
+}
+
+button:hover {
+    border: solid 3px black;
+}

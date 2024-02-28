@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/assets/css/exercice6.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <section id="Identity" style="background-color: rgb(130, 199, 199);">
+            
+            <div>
+                <form>
+                    <fieldset id="identity">
+                        <legend>votre identité</legend>    
+                                <label for="name">1.Nom</label>
+                                <input type="text" name="name" id="name" placeholder="Elric" required>
+                            </form>
+                            <form>
+                                <label for="forename">2.Prénom</label>
+                                <input type="text" name="forename" id="forename" placeholder="Edouard" required>
+                            </form>
+                            <form>
+                                <label for="email">3.Adress mail:</label>
+                                <input type="email" name="email" id="email" placeholder="edouard.elric@gmail.com" required>
+                            </form>
+                        </fieldset>
+            </div>
+         </section>
+
+        <section id="Adress" style="background-color: rgb(72, 151, 182);">
+            <fieldset id="adressDelivery">
+                <legend>Adresse de livraison</legend>
+                    <div>
+                        1.Adresse:
+                        <textarea name="Adress" id="Adress" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="postalCode">2.Code postal:</label>
+                            <input type="text" name="postalCode" id="postalCode" placeholder="Code Postal">
+                        </form>
+                        <form>
+                            <label for="town">3.Ville</label>
+                            <input type="text" name="town" id="town" placeholder="Ville">
+                        </form>
+                    </div>
+            </fieldset>
+        </section>
+
+        <section id="info" style="background-color: rgb(17, 126, 252);">
+            <fieldset>
+                <legend>Information de réglement</legend>
+                    <div>
+                        <form>
+                            <p>1.Type de carte Bancaire:</p>
+                            <!-- une list aurait était mieux qu'une div -->
+                            <div class="card">
+                                <input type="radio" id="visa" name="bankCardType" value="visa">
+                                <label for="visa">VISA</label>
+                            </div>
+                            <div class="card">
+                                <input type="radio" id="mastercard" name="bankCardType" value="mastercard">
+                                <label for="mastercard">MASTERCARD</label>
+                            </div>
+                        </form>
+                        <form>
+                            <label for="cardNumber">2.Numéro de carte:</label>
+                            <input type="text" name="cardNumber" id="cardNumber" placeholder="Numéro de carte">
+                        </form>
+                        <form>
+                            <label for="securityCode">3.Code de sécurité:</label>
+                            <input type="text" name="securityCode" id="securityCode" placeholder="Code de sécurité">
+                        </form>
+                        <form>
+                            <label for="cardUser">4.Nom du titulaire:</label>
+                            <input type="text" name="cardUser" id="cardUser" placeholder="Nom du titulaire">
+                        </form>
+                    </div>
+            </fieldset>
+        </section>
+        <button>J'achète!</button>
+    </main>
+</body>
+</html>

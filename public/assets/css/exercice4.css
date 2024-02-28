@@ -1,0 +1,19 @@
+.paraOrange {
+    background-color: orangered;
+}
+
+.bleuBackground {
+    background-color: blue;
+}
+
+p {
+    background-color: yellow;
+}
+
+.paraUn {
+    margin: 40px;
+}
+
+.paraDeux {
+    padding: 40px;
+}
