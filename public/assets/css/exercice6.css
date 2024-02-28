@@ -40,3 +40,15 @@ button {
 button:hover {
     border: solid 3px black;
 }
+
+#info {
+    background-color: rgb(17, 126, 252);
+}
+
+#adress {
+    background-color: rgb(72, 151, 182);
+}
+
+#identity {
+    background-color: rgb(130, 199, 199);
+}
